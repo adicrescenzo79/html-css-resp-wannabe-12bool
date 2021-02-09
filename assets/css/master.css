@@ -2,9 +2,30 @@
   text-align: center;
 }
 
+.mt-05{
+  margin-top: 0.5em;
+}
+
+.mt-1{
+  margin-top: 1em;
+}
+
+.mt-5{
+  margin-top: 5em;
+}
+
+.mt-7{
+  margin-top: 7em;
+}
+
+h1{
+  font-size: 2em;
+}
+
 img{
   height: 200px;
 }
+
 
 #how, #why{
   background-color: #f9f9f9;
