@@ -26,6 +26,10 @@ img{
   height: 200px;
 }
 
+h3{
+  font-size: 1.5em;
+}
+
 
 #how, #why{
   background-color: #f9f9f9;
@@ -36,4 +40,62 @@ img{
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px;
+}
+
+.lg-none{
+  display: none;
+}
+
+@media all and (max-width: 991px) {
+  .row {
+    margin: 0 0px;
+  }
+
+  body{
+    font-size: 20px;
+  }
+
+  .mt-md-0{
+    margin-top: 0;
+  }
+
+  .mt-md-1{
+    margin-top: 1em;
+  }
+
+  .mt-md-2{
+    margin-top: 2em;
+  }
+
+  .md-none{
+    display: none;
+  }
+
+  .md-block{
+    display: block;
+  }
+
+
+  img{
+    height: 110px;
+  }
+
+  #lessons, #why{
+    background-color: #F2F2CD;
+  }
+
+  #how{
+    background-color: #ffffff;
+  }
+
+  #why .row img {
+    height: 110px;
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 20px;
+  }
+
+  .md-none{
+    display: none;
+  }
 }
